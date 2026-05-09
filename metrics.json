@@ -1,0 +1,72 @@
+{
+  "gradient_boosting": {
+    "r2": 0.8374250228244174,
+    "r2_full_dataset": 0.9138332574937384,
+    "mae": 693.0329282707031,
+    "rmse": 872.2590046269356,
+    "cv_r2_mean": 0.6147309895538247
+  },
+  "random_forest": {
+    "r2": 0.8504685377341622
+  },
+  "linear_regression": {
+    "r2": 0.8686446900900009
+  },
+  "features": [
+    "jour_semaine",
+    "mois",
+    "jour_mois",
+    "semaine_annee",
+    "est_weekend",
+    "citernes_disponibles",
+    "nb_dessertes",
+    "temperature",
+    "temps_chargement_moyen",
+    "taux_remplissage"
+  ],
+  "feature_importance": [
+    {
+      "feature": "nb_dessertes",
+      "importance": 0.31330051048257973
+    },
+    {
+      "feature": "est_weekend",
+      "importance": 0.21296816319661188
+    },
+    {
+      "feature": "citernes_disponibles",
+      "importance": 0.15285971967227277
+    },
+    {
+      "feature": "jour_semaine",
+      "importance": 0.10741063312042202
+    },
+    {
+      "feature": "taux_remplissage",
+      "importance": 0.0669384743908519
+    },
+    {
+      "feature": "semaine_annee",
+      "importance": 0.05980137564328229
+    },
+    {
+      "feature": "mois",
+      "importance": 0.033294481038435034
+    },
+    {
+      "feature": "temps_chargement_moyen",
+      "importance": 0.025411989903084534
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.014121652316291138
+    },
+    {
+      "feature": "jour_mois",
+      "importance": 0.013893000236168683
+    }
+  ],
+  "n_anomalies": 11,
+  "total_tonnage": 1675354.9,
+  "n_days": 357
+}
